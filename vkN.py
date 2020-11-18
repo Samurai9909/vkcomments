@@ -1,7 +1,7 @@
 from vk import *
 import random, vk, time
 token = "токен (VK ADMIN)"
-user_id = "ацдин страницы" 
+user_id = "айди страницы" 
 posts_id = "айди поста"
 msgs = input("Введите сообщение: ")
 session = vk.Session(access_token=token)
