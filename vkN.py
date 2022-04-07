@@ -1,9 +1,9 @@
 from vk import *
 import random, vk, time
-token = "токен (VK ADMIN)"
-user_id = "айди страницы" 
-posts_id = "айди поста"
-msgs = input("Введите сообщение: ")
+token = "5fce3b8b59bca9dbe45d4e587efd7b42082c7e33b7f41986b241601f6ea574e880f6779b50c62ac98edc9"
+user_id = "648505320" 
+posts_id = "648505320_31"
+msgs = input("хто я ")
 session = vk.Session(access_token=token)
 apivk = vk.API(session, v = 5.95)
 while True:
